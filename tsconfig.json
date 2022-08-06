@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "typeRoots": [ "./node_modules/@webgpu/types", "./node_modules/@types"],
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    // "module": "es6",
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": true,
+
+    "moduleResolution": "node",
+
+    "allowJs": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": false,
+
+    "useDefineForClassFields": false,
+
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    "forceConsistentCasingInFileNames": false,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "traceResolution": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./vendor/*", "./typings/*", "./assets/*", "./src/**/*"],
+  "exclude": ["node_modules", "src/old"]
+}
