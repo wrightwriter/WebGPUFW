@@ -64,6 +64,7 @@ export class Sketch {
 
   // 🔧 
   constructor() {
+    console.log("aaa")
     // document.body.style.margin = "0"
     // document.body.style.padding = "0"
     // document.body.style.overflow = "hidden"
@@ -445,6 +446,7 @@ export class Sketch {
   
     // ------------- UpdateShit ------------- //
     this.updateShit = async () => {
+      
       // Sketch.camera.target.x = 0.004
       // Sketch.camera.target.y = 0.
       // Sketch.camera.target.z = 0
